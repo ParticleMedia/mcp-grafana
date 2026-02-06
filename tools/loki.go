@@ -22,7 +22,7 @@ const (
 	DefaultLokiLogLimit = 10
 
 	// MaxLokiLogLimit is the maximum number of log lines that can be requested
-	MaxLokiLogLimit = 100
+	MaxLokiLogLimit = 2000
 )
 
 type Client struct {
